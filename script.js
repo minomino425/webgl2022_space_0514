@@ -9,8 +9,8 @@
 // ============================================================================
 
 // 必要なモジュールを読み込み
-import * as THREE from "/lib/three.module.js";
-import { OrbitControls } from "/lib/OrbitControls.js";
+import * as THREE from "./lib/three.module.js";
+import { OrbitControls } from "./lib/OrbitControls.js";
 
 // DOM がパースされたことを検出するイベントを設定
 window.addEventListener(
